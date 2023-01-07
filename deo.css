@@ -1,0 +1,52 @@
+
+h1{
+   
+    text-align: center;
+  font-size: 60px;
+ background-color: aqua;
+  
+}
+i{
+    float:right;
+    position: relative;
+    margin-left: 1%;
+}
+i1{
+    float:left;
+    position: relative;
+    margin-left: 1%;
+        }
+.crypto1{
+    background-color:blue;
+}
+.green{
+    color: green;
+}
+.bo{
+    color: cornflowerblue;
+    -webkit-text-stroke-width: .4px;
+  -webkit-text-stroke-color: black;
+  text-decoration: underline;
+text-decoration-color: rgb(56, 56, 56);
+}
+.green{
+color: green;
+}
+.blue{
+color: rgb(10, 90, 239);
+}
+.blue{
+    color: blue;
+}
+.img_text1 {
+    background-color:rgb(168, 209, 205);
+    position: absolute;
+    bottom: 0px; ;
+    left: 16px;;
+  }
+  .img_text2 {
+    background-color:rgb(168, 209, 205);
+    position: absolute;
+    bottom: 0px; ;
+    left: 16px;;
+  }
