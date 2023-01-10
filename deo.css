@@ -1,20 +1,10 @@
-h2{
-    color: rgb(117, 41, 41);
-    font-weight: 400;
-        font-family: "Montserrat Medium";
-        transform: scale(0.94);
-        animation: scale 8s forwards cubic-bezier(0.5, 1, 0.89, 1);
-      }
-      @keyframes scale {
-        100% {
-          transform: scale(1);
-          
-        }
-      }
+.heading{
+   width: 100%;
+    text-align: center;
+}
 
 svg text {
-    padding: 5px;
-    margin-left:0%;
+ 
     display: block;
     justify-content: center;
     font-family: Lora;
@@ -43,6 +33,20 @@ svg text {
       fill: hsla(189, 68%, 75%,0%)
     } 
 }
+h2{
+    color: rgb(117, 41, 41);
+    font-weight: 400;
+        font-family: "Montserrat Medium";
+        transform: scale(0.94);
+        animation: scale 8s forwards cubic-bezier(0.5, 1, 0.89, 1);
+      }
+      @keyframes scale {
+        100% {
+          transform: scale(1);
+          
+        }
+      }
+
 p {
     
     line-height: 1.5;
