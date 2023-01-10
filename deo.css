@@ -40,15 +40,10 @@ color: rgb(10, 90, 239);
 .blue{
     color: blue;
 }
-.img_text1 {
-    background-color:rgb(168, 209, 205);
-    position: absolute;
-    bottom: 0px; ;
-    left: 16px;;
-  }
-  .img_text2 {
-    background-color:rgb(168, 209, 205);
-    position: absolute;
-    bottom: 0px; ;
-    left: 16px;;
-  }
+.heading{
+    font-size: 150%;
+        padding: 5px;
+        margin-left:0%;
+        display: block;
+        justify-content: center;
+}
