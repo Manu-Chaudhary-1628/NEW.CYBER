@@ -1,12 +1,72 @@
 h2{
-    
-}
-h1{
+    color: rgb(117, 41, 41);
+    font-weight: 400;
+        font-family: "Montserrat Medium";
+        transform: scale(0.94);
+        animation: scale 8s forwards cubic-bezier(0.5, 1, 0.89, 1);
+      }
+      @keyframes scale {
+        100% {
+          transform: scale(1);
+          
+        }
+      }
+
+svg text {
+    padding: 5px;
+    margin-left:0%;
+    display: block;
+    justify-content: center;
+    font-family: Lora;
+    letter-spacing: 5px;
+    stroke: #3767eb;
+    font-size: 200%;
+    font-weight: 400;
+    stroke-width: 5;
    
-    text-align: center;
-  font-size: 60px;
-  background-color:cornflowerblue;
+    animation: textAnimate 8s infinite alternate;
+    
+  }
+  
+  
+  @keyframes textAnimate {
+    0% {
+      stroke-dasharray: 0 50%;
+      stroke-dashoffset:  50%;
+      fill:rgb(2, 2, 2) 
+  
+    }
+    
+    100% {
+      stroke-dasharray: 50% 0;
+      stroke-dashoffstet: -20%;
+      fill: hsla(189, 68%, 75%,0%)
+    } 
 }
+p {
+    
+    line-height: 1.5;
+    display: inline;
+    background-image: linear-gradient(
+          transparent 50%,
+          #e1fffe 50%,
+          #33728a 85%,
+          transparent 20%,
+          transparent 10%
+      );
+      background-repeat: no-repeat;
+      background-size: 0% 100%;
+      animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
+  }
+  
+  @keyframes animatedBackground {
+      to {
+          background-size: 100% 100%;
+      }
+      
+    }
+      
+  
 i{
     float:right;
     position: relative;
@@ -16,33 +76,18 @@ i1{
     float:left;
     position: relative;
     margin-left: 1%;
-        }
+}
 .crypto1{
     background-color:blue;
 }
 .green{
     color: green;
 }
-.bo{
-    color: cornflowerblue;
-    -webkit-text-stroke-width: .4px;
-  -webkit-text-stroke-color: black;
-  text-decoration: underline;
-text-decoration-color: rgb(56, 56, 56);
-}
-.green{
-color: green;
-}
+
+
 .blue{
 color: rgb(10, 90, 239);
 }
 .blue{
     color: blue;
-}
-.heading{
-    font-size: 150%;
-        padding: 5px;
-        margin-left:0%;
-        display: block;
-        justify-content: center;
 }
