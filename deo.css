@@ -45,55 +45,44 @@
     text-align: center;
 }
 
+img{
+align-content: auto;
+
+}
 
 h2{
+    text-align: center;
     color: rgb(117, 41, 41);
         font-size:x-large  ;
-        font-family: "Montserrat Medium";
-        transform: scale(0.94);
-        animation: scale 8s forwards cubic-bezier(0.5, 1, 0.89, 1);
-      }
-      @keyframes scale {
-        100% {
-          transform: scale(1);
-          
+            font-family: "Montserrat Medium";
+                transform: scale(0.94);
+                animation: scale 8s forwards cubic-bezier(0.5, 1, 0.89, 1);
         }
-      }
-
-p {
+            @keyframes scale {
+        100% {
+                transform: scale(1);
+            }
+    } 
+    p {
     
-    line-height: 1.5;
-    display: inline;
-    background-image: linear-gradient(
-          transparent 50%,
-          #e1fffe 50%,
-          #b2e4f8 85%,
-          transparent 20%,
-          transparent 10%
-      );
-      background-repeat: no-repeat;
-      background-size: 0% 100%;
-      animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
-  }
-  
-  @keyframes animatedBackground {
-      to {
-          background-size: 100% 100%;
-      }
-      
+        line-height: 1.5;
+        display: inline;
+        background-image: linear-gradient(
+            transparent 50%,
+            #e1fffe 50%,
+            #b2e4f8 85%,
+            transparent 20%,
+            transparent 10%
+        );
+        background-repeat: no-repeat;
+        background-size: 0% 100%;
+        animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
     }
-      
-  
-i{
-    float:right;
-    position: relative;
-    margin-left: 1%;
-}
-i1{
-    float:left;
-    position: relative;
-    margin-left: 1%;
-}
+    @keyframes animatedBackground {
+        to {
+            background-size: 100% 100%;
+            }
+    }
 .crypto1{
     background-color:blue;
 }
@@ -103,7 +92,7 @@ i1{
 
 
 .blue{
-color: rgb(10, 90, 239);
+color: rgb(10,90,239);
 }
 .blue{
     color: blue;
