@@ -40,10 +40,16 @@
     left: -550px;
     }
 }
+.heading{
+    width: 100%;
+    text-align: center;
+}
+
+
 h2{
     -webkit-text-stroke-width: .4px;
     text-align: center;
-    color:rgb(83, 83, 83);
+    color:rgb(4, 19, 135);
         font-size:x-large  ;
             font-family: "Montserrat Medium";
                 transform: scale(0.94);
